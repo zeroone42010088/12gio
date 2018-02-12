@@ -1,10 +1,27 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	
-</body>
-</html>
+body {
+	margin: 0;
+	font-family:'Open Sans';
+	font-size: 16px;
+	overflow-x:hidden;
+}
+.first-block{
+	/* Style for "фон" */
+width: 1920px;
+height: 700px;
+background-image: linear-gradient(to top, rgba(173, 173, 173, 0.7) 0%, rgba(255, 255, 255, 0.7) 47%, rgba(215, 215, 215, 0.7) 100%);
+}
+.red-back {
+	position: absolute;
+	display: inline-block;
+	height: 700px;
+	width: 1286px;
+	float:right;
+	z-index: 2;
+}
+.purple-back {
+	display: inline-block;
+	width: 731px;
+	height: 700px;
+	float: :right;
+	z-index: 1;
+}
